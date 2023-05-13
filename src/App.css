@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Palanquin+Dark&family=Palanquin:wght@400;700&family=Paytone+One&display=swap');
+*{
+  font-family: 'Oswald', sans-serif;
+}
+
+.icons{
+  position: absolute;
+  top: 50%;
+  padding: 0 9%;
+  transform: translateY(-50%);
+}
+
+.icons a{
+  display: block;
+  margin: 26px 0;
+  font-size: 24px;
+  color: aliceblue;
+  transition: all .5s ease;
+}
+
+.icons a:hover{
+  color: pink;
+  transform: translateX(5px);
+}
+
+@media (max-width: 1300px) {
+  .hidden-mobile {
+    display: none;
+  }
+}
+
+.contenedor{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor figure{
+  position: relative;
+  overflow: hidden;
+  border-radius: 6px;
+}
+
+.contenedor img{
+  transition: all 500ms ease-out;
+}
+
+.contenedor figure .capa{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  text-align: center;
+}
+
+.contenedor figure:hover > .capa{
+  opacity: 1;
+  visibility: visible;
+  transition: 0.5s;
+}
+
+.tecnologias{
+  size: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:row;
+  padding-top: 25%;
+  padding-bottom: auto;
+  gap: 15px;
+}
