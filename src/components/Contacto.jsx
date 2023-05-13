@@ -9,8 +9,8 @@ const Contacto = () => {
                 <p className='pt-8'>Podes contactar conmigo a través de:</p>
                     <div className='pt-16 flex flex-col gap-20 md:text-white min-[320px]:text-white min-[320px]:gap-10 min-[320px]:pt-10 xl:text-black'>
                         <a href="https://www.linkedin.com/in/facundo-gordillo-7013a6239/" target="blank"><p className='flex gap-5 font-bold text-lg'><BsLinkedin size={30} className='text-white'/>www.linkedin.com/in/facundo-gordillo-7013a6239/</p></a>
-                        <p className='flex gap-5 font-bold text-lg'><BsWhatsapp size={30} className='text-white'/>+54 1150137306</p>
-                        <p className='flex gap-5 font-bold text-lg '><FiMail size={30} className='text-white'/>gordillofacu22@gmail.com</p>
+                        <a href="https://wa.me/541150137306"target="blank"><p className='flex gap-5 font-bold text-lg'><BsWhatsapp size={30} className='text-white'/>+54 1150137306</p></a>
+                        <a href="mailto:gordillofacu22@gmail.com" target="blank"><p className='flex gap-5 font-bold text-lg '><FiMail size={30} className='text-white'/>gordillofacu22@gmail.com</p></a>
                     </div>
             
             </div>  

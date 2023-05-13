@@ -9,7 +9,7 @@ const Home = () => {
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black via-black to-violet-600'>
         <div className='max-w-screen-lg mx-auto flex  flex-col items-center justify-center h-full px-4 md:flex-row pl-20 xl:pl-36'>
             <div className='flex flex-col justify-center h-full min-[320px]:pt-28'>
-                <h2 className='text-4xl sm:text-7xl font-bold text-amber-50'>Front-End Developer</h2>
+                <h2 className='text-4xl sm:text-7xl font-bold text-amber-50 '>Front-End Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
                     Me llamo Facundo Gordillo Stanzione
                     <br/>
@@ -27,7 +27,7 @@ const Home = () => {
                 </div>
             </div>
             <div>
-                <img src={Facundo} alt="Profile Photo" className='max-w-md rounded-3xl mx-auto w2/3 md:max-w-md min-[320px]:max-w-[50%] min-[320px]:ml-40 min-[320px]:mb-20 xl:max-w-[50%] xl:mt-44 md:max-w-[70%] md:ml-20 md:mt-44 lg:max-w-[60%] 2xl:max-w-[60%]'/>
+                <img src={Facundo} alt="Profile Photo" className='max-w-md rounded-3xl mx-auto w2/3 md:max-w-md min-[320px]:max-w-[50%] min-[370px]:ml-36 min-[370px]:mb-20 xl:max-w-[50%] xl:mt-44 md:max-w-[60%] md:ml-20 md:mt-44 lg:max-w-[60%] 2xl:max-w-[60%] max-[330px]:ml-28 max-[330px]:mb-10'/>
             </div>
         </div>
         <div className='icons hidden-mobile '>

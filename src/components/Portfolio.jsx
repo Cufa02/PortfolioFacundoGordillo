@@ -41,7 +41,7 @@ const Portfolio = () => {
         </div>
 
           
-            <div className='grid sm:grid-cols-2 md:grid-cols-1 gap-8 px-12 sm:px-0 lg:grid-cols-2 xl:grid-cols-3 max-[600px]:grid-cols-1 max-[600px]:max-w-[95%] 2xl:pt-10 '>
+            <div className='grid sm:grid-cols-2 md:grid-cols-1 gap-8 px-12 sm:px-0 lg:grid-cols-2 xl:grid-cols-3 max-[600px]:grid-cols-1 max-[600px]:max-w-[95%] 2xl:pt-10 max-[330px]:w-56'>
               {portfolios.map(({id, img, tec, link, linkpag}) => (
                   <div key={id} className='contenedor '>
                     <figure>
