@@ -17,17 +17,22 @@ const Home = () => {
                     <br/>
                     Desarrollador Front-End JR con manejo de React y Tailwind
                 </p>
-                <div className='min-[320px]:pt-10'>
+                <div className='min-[320px]:pt-10 flex gap-20 max-[330px]:gap-6 min-[370px]:gap-28'>
                     <Link to='portfolio' smooth duration={500} className='group cursor-pointer text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to to-pink-300 shadow-md shadow-black min-[320px]:-10'>
                         <span>
                             Portfolio
                             <MdKeyboardArrowDown size={28} className='ml-1 group-hover:scale-150 group-hover:text-white duration-200'/>
                         </span>
                     </Link>
+                    <a href='https://drive.google.com/file/d/1UwBVC5vwU0JN_Jad_Vii_e2f85fC8qyD/view' target="blank" className='group cursor-pointer text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to to-pink-300 shadow-md shadow-black min-[320px]:-10 hover:scale-105 duration-500'>
+                        <span>
+                            CV
+                        </span>
+                    </a>
                 </div>
             </div>
             <div>
-                <img src={Facundo} alt="Profile Photo" className='max-w-md rounded-3xl mx-auto w2/3 md:max-w-md min-[320px]:max-w-[50%] min-[370px]:ml-36 min-[370px]:mb-20 xl:max-w-[50%] xl:mt-44 md:max-w-[60%] md:ml-20 md:mt-44 lg:max-w-[60%] 2xl:max-w-[60%] max-[330px]:ml-28 max-[330px]:mb-10'/>
+                <img src={Facundo} alt="Profile Photo" className='max-w-md rounded-3xl mx-auto w2/3 md:max-w-xs min-[320px]:max-w-[50%] min-[370px]:ml-12 min-[370px]:mt-6 min-[370px]:mb-20 xl:max-w-[50%] xl:mt-44 md:max-w-[60%] md:ml-20 md:mt-44 lg:max-w-[60%] 2xl:max-w-[60%] max-[330px]:ml-12 max-[330px]:mt-6'/>
             </div>
         </div>
         <div className='icons hidden-mobile '>
