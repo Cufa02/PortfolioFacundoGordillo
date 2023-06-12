@@ -11,11 +11,11 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full min-[320px]:pt-28'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-amber-50 '>Front-End Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    Me llamo Facundo Gordillo Stanzione
+                    My name is Facundo Gordillo Stanzione
                     <br/>
-                    Soy un estudiante de programación argentino.
+                    I'm an argentinian programming student
                     <br/>
-                    Desarrollador Front-End JR con manejo de React y Tailwind
+                    JR React Front-End developer
                 </p>
                 <div className='min-[320px]:pt-10 flex gap-20 max-[330px]:gap-6 min-[370px]:gap-28'>
                     <Link to='portfolio' smooth duration={500} className='group cursor-pointer text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to to-pink-300 shadow-md shadow-black min-[320px]:-10'>

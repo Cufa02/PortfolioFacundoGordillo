@@ -10,7 +10,7 @@ const NavBar = () => {
             <li className=' px-10 cursor-pointer hover:scale-125 hover:text-white duration-200 '><Link to='home' smooth duration={500}>Home</Link></li>
             <li className='px-10 cursor-pointer hover:scale-125 hover:text-white duration-200'><Link to='portfolio' smooth duration={500}>Portfolio</Link></li>
             <li className='px-10 cursor-pointer hover:scale-125 hover:text-white duration-200'><Link to='skills' smooth duration={500}>Skills</Link></li>
-            <li className='px-10 cursor-pointer hover:scale-125 hover:text-white duration-200'><Link to='contacto' smooth duration={500}>Contacto</Link></li>
+            <li className='px-10 cursor-pointer hover:scale-125 hover:text-white duration-200'><Link to='contacto' smooth duration={500}>Contact me</Link></li>
         </ul>
         <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-white md:hidden'>
             {nav ? <FaTimes size={30}/> : <FaBars size={30}/>}
@@ -22,7 +22,7 @@ const NavBar = () => {
             <li className='px-4 cursor-pointer capitalize text-white py-6 text-4xl'><Link to='home' smooth duration={500}>Home</Link></li>
             <li className='px-4 cursor-pointer capitalize text-white py-6 text-4xl'><Link to='portfolio'>Portfolio</Link></li>
             <li className='px-4 cursor-pointer capitalize text-white py-6 text-4xl'><Link to='skills'>Skills</Link></li>
-            <li className='px-4 cursor-pointer capitalize text-white py-6 text-4xl'><Link to='contacto'>Contacto</Link></li>
+            <li className='px-4 cursor-pointer capitalize text-white py-6 text-4xl'><Link to='contacto'>Contact me</Link></li>
         </ul>
         )}
     </div>

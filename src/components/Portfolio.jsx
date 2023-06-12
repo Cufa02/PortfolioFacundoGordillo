@@ -37,7 +37,7 @@ const Portfolio = () => {
       <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-black'>Portfolio</p>
-          <p className='py-6'>Proyectos terminados hechos por mi</p>
+          <p className='py-6'>Fully finished projects developed by me</p>
         </div>
 
           
