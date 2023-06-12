@@ -3,19 +3,21 @@ import {MdKeyboardArrowDown} from 'react-icons/md'
 import { BsGithub,BsLinkedin } from 'react-icons/bs'
 import {FaUserAlt} from 'react-icons/fa'
 import { Link } from 'react-scroll'
+import { useTranslation} from 'react-i18next';
 
 const Home = () => {
+    const [t, i18n] = useTranslation("global");
   return (
     <div name='home' className='h-screen w-full bg-gradient-to-b from-black via-black to-violet-600'>
         <div className='max-w-screen-lg mx-auto flex  flex-col items-center justify-center h-full px-4 md:flex-row pl-20 xl:pl-36'>
             <div className='flex flex-col justify-center h-full min-[320px]:pt-28'>
                 <h2 className='text-4xl sm:text-7xl font-bold text-amber-50 '>Front-End Developer</h2>
                 <p className='text-gray-500 py-4 max-w-md'>
-                    My name is Facundo Gordillo Stanzione
+                    {t("Home.Texto1")}
                     <br/>
-                    I'm an argentinian programming student
+                    {t("Home.Texto2")}
                     <br/>
-                    JR React Front-End developer
+                    {t("Home.Texto3")}
                 </p>
                 <div className='min-[320px]:pt-10 flex gap-20 max-[330px]:gap-6 min-[370px]:gap-28'>
                     <Link to='portfolio' smooth duration={500} className='group cursor-pointer text-black w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-pink-500 to to-pink-300 shadow-md shadow-black min-[320px]:-10'>

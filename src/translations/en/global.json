@@ -1,0 +1,19 @@
+{
+    "Navbar":{
+        "Contacto": "Contact Me"
+    },
+    "Home":{
+        "Texto1": "My name is Facundo Gordillo Stanzione",
+        "Texto2": "Im an argentinian programming student",
+        "Texto3": "JR React Front-End developer"
+    },
+    "Portfolio":{
+        "Texto": "Fully finished projects developed by me"
+    },
+    "Skills":{
+        "Texto": "Tecnologies I work with"
+    },
+    "Contacto":{
+        "Texto": "You can contact me through:"
+    }
+}

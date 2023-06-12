@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Oswald:wght@200;300;400;500;600;700&family=Palanquin+Dark&family=Palanquin:wght@400;700&family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@300&display=swap');
 *{
   font-family: 'Oswald', sans-serif;
 }
@@ -74,4 +75,27 @@
   padding-top: 25%;
   padding-bottom: auto;
   gap: 15px;
+}
+
+.btnLenguage{
+  
+  font-size: 15px;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.btnLenguage:hover{
+  color: aliceblue;
+}
+
+.btnLenguageMobile{
+  font-family: 'Overpass', sans-serif;
+  color: black;
+  padding-top: 20px;
+}
+
+.btnLenguageMobile:hover{
+  color: aliceblue;
 }

@@ -4,8 +4,11 @@ import DolarHoy from '../assets/portfolio/DolarHoy.png'
 import {BsGithub, BsLink45Deg, BsBootstrapFill} from 'react-icons/bs';
 import {FaSass, FaReact, FaHtml5, FaCss3Alt} from 'react-icons/fa';
 import {IoLogoJavascript} from 'react-icons/io';
+import { useTranslation} from 'react-i18next';
 
 const Portfolio = () => {
+
+  const [t, i18n] = useTranslation("global");
 
   const portfolios = [
     {
@@ -37,7 +40,7 @@ const Portfolio = () => {
       <div className='max-w-screen-xl p-4 mx-auto flex flex-col justify-center w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-black'>Portfolio</p>
-          <p className='py-6'>Fully finished projects developed by me</p>
+          <p className='py-6'>{t("Portfolio.Texto")}</p>
         </div>
 
           

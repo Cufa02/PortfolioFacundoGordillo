@@ -7,7 +7,10 @@ import Notion from '../assets/skills/Notion.png';
 import Photoshop from '../assets/skills/Photoshop.png';
 import REACT from '../assets/skills/REACT.png';
 import Tailwind from '../assets/skills/Tailwind.png';
+import { useTranslation} from 'react-i18next';
 const Skills = () => {
+
+    const [t, i18n] = useTranslation("global");
 
     const tecno = [
         {
@@ -62,7 +65,7 @@ const Skills = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col justify-center w-full h-30 text-white'>
             <div>
                 <p className='text-4xl font-bold p-2 flex justify-center'>SKILLS </p>
-                <p className='py-6 flex justify-center'>Tecnologies that I work with</p>
+                <p className='py-6 flex justify-center'>{t("Skills.Texto")}</p>
             </div>
             <div className='w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 max-[600px]:grid-cols-3 max-[600px]:py-2 '>
 
